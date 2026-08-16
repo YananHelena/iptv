@@ -1,8 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="SHOW.TV.HD.tr" tvg-logo="https://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="Ulusal",Show TV
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-#EXTVLCOPT:http-referrer=https://www.showtv.com.tr/
-#EXTHTTP:{"User-Agent":"VLC/3.0.21 LibVLC/3.0.21","Referer":"https://www.showtv.com.tr/"}
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
 #EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -29,14 +26,8 @@ https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" group-title="Kültür & Yaşam",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TLC.HD.tr" tvg-logo="https://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="Eğlence",TLC
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-#EXTVLCOPT:http-referrer=https://www.tlctv.com.tr/
-#EXTHTTP:{"User-Agent":"VLC/3.0.21 LibVLC/3.0.21","Referer":"https://www.tlctv.com.tr/"}
 https://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8
 #EXTINF:-1 tvg-id="DMAX.HD.tr" tvg-logo="https://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png" group-title="Eğlence",DMAX
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-#EXTVLCOPT:http-referrer=https://www.dmax.com.tr/
-#EXTHTTP:{"User-Agent":"VLC/3.0.21 LibVLC/3.0.21","Referer":"https://www.dmax.com.tr/"}
 https://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
 #EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Haber",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
@@ -49,7 +40,6 @@ https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" group-title="Haber",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-id="TV100.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png" group-title="Haber",tv100
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Haber",TELE1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
