@@ -30,13 +30,15 @@ jobs:
       - name: Commit changes
         shell: bash
         run: |
-          if git diff --quiet -- playlist.m3u; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add playlist.m3u
+
+          if git diff --cached --quiet; then
             echo "Playlist değişmedi."
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
           git commit -m "chore: update IPTV playlist"
           git push
