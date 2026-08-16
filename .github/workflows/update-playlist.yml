@@ -17,40 +17,47 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
-      - name: Build playlist
+      - name: Run parser tests
+        run: python test_builder.py
+
+      - name: Build playlists
         run: python build_playlist.py --config channels.json
 
-      - name: Validate playlist
+      - name: Validate enhanced playlist
         run: python validate_playlist.py playlist.m3u
 
-      - name: Show custom streams
+      - name: Validate plain fallback
+        run: python validate_playlist.py playlist_plain.m3u
+
+      - name: Validate special-channel test
+        run: python validate_playlist.py special-test.m3u
+
+      - name: Show Show TV / TLC / DMAX output
         shell: bash
         run: |
-          echo "Show TV:"
-          grep -A1 ',Show TV$' playlist.m3u || true
+          echo "===== playlist.m3u özel kanallar ====="
+          grep -A4 ',Show TV$' playlist.m3u || true
           echo
-          echo "TLC:"
-          grep -A1 ',TLC$' playlist.m3u || true
+          grep -A4 ',TLC$' playlist.m3u || true
           echo
-          echo "DMAX:"
-          grep -A1 ',DMAX$' playlist.m3u || true
+          grep -A4 ',DMAX$' playlist.m3u || true
 
-      - name: Commit playlist
+      - name: Commit generated playlists
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add playlist.m3u
+          git add playlist.m3u playlist_plain.m3u special-test.m3u
 
           if git diff --cached --quiet; then
-            echo "Playlist değişmedi."
+            echo "Playlist dosyalarında değişiklik yok."
             exit 0
           fi
 
-          git commit -m "chore: update IPTV playlist"
+          git commit -m "chore: update IPTV playlists"
           git push
