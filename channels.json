@@ -10,7 +10,7 @@
         "logo": "https://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png",
         "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
         "headers": {
-          "User-Agent": "Mozilla/5.0",
+          "User-Agent": "VLC/3.0.21 LibVLC/3.0.21",
           "Referer": "https://www.showtv.com.tr/"
         }
       }
@@ -72,7 +72,8 @@
       "name": "TV8",
       "group": "Ulusal",
       "aliases": [
-        "TV8"
+        "TV8",
+        "TV 8"
       ],
       "tvg_ids": [
         "TV8.tr"
@@ -115,9 +116,12 @@
       "group": "Ulusal",
       "aliases": [
         "a2",
-        "A2"
+        "A2",
+        "A2TV",
+        "A2 TV"
       ],
       "tvg_ids": [
+        "A2TV.tr",
         "A2.tr"
       ]
     },
@@ -147,7 +151,9 @@
       "group": "Ulusal",
       "aliases": [
         "TV8.5",
-        "TV8,5"
+        "TV8,5",
+        "TV 8.5",
+        "TV 8,5"
       ],
       "tvg_ids": [
         "TV85.tr"
@@ -172,7 +178,7 @@
         "logo": "https://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png",
         "url": "https://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8",
         "headers": {
-          "User-Agent": "Mozilla/5.0",
+          "User-Agent": "VLC/3.0.21 LibVLC/3.0.21",
           "Referer": "https://www.tlctv.com.tr/"
         }
       }
@@ -185,7 +191,7 @@
         "logo": "https://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png",
         "url": "https://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8",
         "headers": {
-          "User-Agent": "Mozilla/5.0",
+          "User-Agent": "VLC/3.0.21 LibVLC/3.0.21",
           "Referer": "https://www.dmax.com.tr/"
         }
       }
@@ -236,9 +242,12 @@
       "group": "Haber",
       "aliases": [
         "Habertürk",
-        "Haberturk"
+        "Haberturk",
+        "Habertürk TV",
+        "Haberturk TV"
       ],
       "tvg_ids": [
+        "HaberturkTV.tr",
         "Haberturk.tr"
       ]
     },
@@ -257,7 +266,8 @@
       "group": "Haber",
       "aliases": [
         "tv100",
-        "TV100"
+        "TV100",
+        "TV 100"
       ],
       "tvg_ids": [
         "TV100.tr"
@@ -510,5 +520,7 @@
         "TRTTurk.tr"
       ]
     }
-  ]
+  ],
+  "plain_output": "playlist_plain.m3u",
+  "special_output": "special-test.m3u"
 }
