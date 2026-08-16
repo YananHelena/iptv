@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -27,7 +27,19 @@ jobs:
       - name: Validate playlist
         run: python validate_playlist.py playlist.m3u
 
-      - name: Commit changes
+      - name: Show custom streams
+        shell: bash
+        run: |
+          echo "Show TV:"
+          grep -A1 ',Show TV$' playlist.m3u || true
+          echo
+          echo "TLC:"
+          grep -A1 ',TLC$' playlist.m3u || true
+          echo
+          echo "DMAX:"
+          grep -A1 ',DMAX$' playlist.m3u || true
+
+      - name: Commit playlist
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
