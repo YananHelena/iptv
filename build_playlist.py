@@ -137,6 +137,17 @@ def render_entry(name: str, group: str, entry: Entry | None = None, custom: dict
         tvg_id = custom.get("tvg_id", "")
         logo = custom.get("logo", "")
         url = custom["url"].strip()
+
+        # Bazı IPTV oynatıcıları URL sonundaki pipe sözdizimiyle HTTP
+        # header kabul eder:
+        #   URL|User-Agent=...&Referer=...
+        # Bu alan sadece custom stream'lerde ve config'te headers varsa eklenir.
+        headers = custom.get("headers", {})
+        if headers:
+            header_parts = []
+            for key, value in headers.items():
+                header_parts.append(f"{key}={value}")
+            url = url + "|" + "&".join(header_parts)
     elif entry:
         tvg_id = entry.tvg_id
         logo = entry.logo

@@ -8,7 +8,11 @@
       "custom": {
         "tvg_id": "SHOW.TV.HD.tr",
         "logo": "https://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png",
-        "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558"
+        "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
+        "headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Referer": "https://www.showtv.com.tr/"
+        }
       }
     },
     {
@@ -166,7 +170,11 @@
       "custom": {
         "tvg_id": "TLC.HD.tr",
         "logo": "https://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png",
-        "url": "https://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8"
+        "url": "https://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8",
+        "headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Referer": "https://www.tlctv.com.tr/"
+        }
       }
     },
     {
@@ -175,7 +183,11 @@
       "custom": {
         "tvg_id": "DMAX.HD.tr",
         "logo": "https://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png",
-        "url": "https://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8"
+        "url": "https://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8",
+        "headers": {
+          "User-Agent": "Mozilla/5.0",
+          "Referer": "https://www.dmax.com.tr/"
+        }
       }
     },
     {
