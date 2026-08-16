@@ -1,0 +1,502 @@
+{
+  "source": "https://iptv-org.github.io/iptv/languages/tur.m3u",
+  "output": "playlist.m3u",
+  "channels": [
+    {
+      "name": "Show TV",
+      "group": "Ulusal",
+      "custom": {
+        "tvg_id": "SHOW.TV.HD.tr",
+        "logo": "https://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png",
+        "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558"
+      }
+    },
+    {
+      "name": "TRT 1",
+      "group": "Ulusal",
+      "aliases": [
+        "TRT 1",
+        "TRT1"
+      ],
+      "tvg_ids": [
+        "TRT1.tr"
+      ]
+    },
+    {
+      "name": "Kanal D",
+      "group": "Ulusal",
+      "aliases": [
+        "Kanal D"
+      ],
+      "tvg_ids": [
+        "KanalD.tr"
+      ]
+    },
+    {
+      "name": "ATV",
+      "group": "Ulusal",
+      "aliases": [
+        "ATV"
+      ],
+      "tvg_ids": [
+        "ATV.tr"
+      ]
+    },
+    {
+      "name": "NOW TV",
+      "group": "Ulusal",
+      "aliases": [
+        "NOW TV",
+        "NOW"
+      ],
+      "tvg_ids": [
+        "NOWTV.tr"
+      ]
+    },
+    {
+      "name": "Star TV",
+      "group": "Ulusal",
+      "aliases": [
+        "Star TV",
+        "Star"
+      ],
+      "tvg_ids": [
+        "StarTV.tr"
+      ]
+    },
+    {
+      "name": "TV8",
+      "group": "Ulusal",
+      "aliases": [
+        "TV8"
+      ],
+      "tvg_ids": [
+        "TV8.tr"
+      ]
+    },
+    {
+      "name": "360",
+      "group": "Ulusal",
+      "aliases": [
+        "360",
+        "360 TV"
+      ],
+      "tvg_ids": [
+        "360.tr"
+      ]
+    },
+    {
+      "name": "CNBC-e",
+      "group": "Ulusal",
+      "aliases": [
+        "CNBC-e",
+        "CNBC e"
+      ],
+      "tvg_ids": [
+        "CNBCe.tr"
+      ]
+    },
+    {
+      "name": "Kanal 7",
+      "group": "Ulusal",
+      "aliases": [
+        "Kanal 7"
+      ],
+      "tvg_ids": [
+        "Kanal7.tr"
+      ]
+    },
+    {
+      "name": "a2",
+      "group": "Ulusal",
+      "aliases": [
+        "a2",
+        "A2"
+      ],
+      "tvg_ids": [
+        "A2.tr"
+      ]
+    },
+    {
+      "name": "Beyaz TV",
+      "group": "Ulusal",
+      "aliases": [
+        "Beyaz TV"
+      ],
+      "tvg_ids": [
+        "BeyazTV.tr"
+      ]
+    },
+    {
+      "name": "teve2",
+      "group": "Ulusal",
+      "aliases": [
+        "teve2",
+        "Teve2"
+      ],
+      "tvg_ids": [
+        "Teve2.tr"
+      ]
+    },
+    {
+      "name": "TV8.5",
+      "group": "Ulusal",
+      "aliases": [
+        "TV8.5",
+        "TV8,5"
+      ],
+      "tvg_ids": [
+        "TV85.tr"
+      ]
+    },
+    {
+      "name": "TRT 2",
+      "group": "Kültür & Yaşam",
+      "aliases": [
+        "TRT 2",
+        "TRT2"
+      ],
+      "tvg_ids": [
+        "TRT2.tr"
+      ]
+    },
+    {
+      "name": "TLC",
+      "group": "Eğlence",
+      "custom": {
+        "tvg_id": "TLC.HD.tr",
+        "logo": "https://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png",
+        "url": "https://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8"
+      }
+    },
+    {
+      "name": "DMAX",
+      "group": "Eğlence",
+      "custom": {
+        "tvg_id": "DMAX.HD.tr",
+        "logo": "https://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png",
+        "url": "https://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8"
+      }
+    },
+    {
+      "name": "A Haber",
+      "group": "Haber",
+      "aliases": [
+        "A Haber"
+      ],
+      "tvg_ids": [
+        "AHaber.tr"
+      ]
+    },
+    {
+      "name": "TRT Haber",
+      "group": "Haber",
+      "aliases": [
+        "TRT Haber"
+      ],
+      "tvg_ids": [
+        "TRTHaber.tr"
+      ]
+    },
+    {
+      "name": "NTV",
+      "group": "Haber",
+      "aliases": [
+        "NTV"
+      ],
+      "tvg_ids": [
+        "NTV.tr"
+      ]
+    },
+    {
+      "name": "CNN Türk",
+      "group": "Haber",
+      "aliases": [
+        "CNN Türk",
+        "CNN Turk"
+      ],
+      "tvg_ids": [
+        "CNNTurk.tr"
+      ]
+    },
+    {
+      "name": "Habertürk",
+      "group": "Haber",
+      "aliases": [
+        "Habertürk",
+        "Haberturk"
+      ],
+      "tvg_ids": [
+        "Haberturk.tr"
+      ]
+    },
+    {
+      "name": "Haber Global",
+      "group": "Haber",
+      "aliases": [
+        "Haber Global"
+      ],
+      "tvg_ids": [
+        "HaberGlobal.tr"
+      ]
+    },
+    {
+      "name": "tv100",
+      "group": "Haber",
+      "aliases": [
+        "tv100",
+        "TV100"
+      ],
+      "tvg_ids": [
+        "TV100.tr"
+      ]
+    },
+    {
+      "name": "Sözcü TV",
+      "group": "Haber",
+      "aliases": [
+        "Sözcü TV",
+        "Sozcu TV"
+      ],
+      "tvg_ids": [
+        "SozcuTV.tr"
+      ]
+    },
+    {
+      "name": "TELE1",
+      "group": "Haber",
+      "aliases": [
+        "TELE1",
+        "Tele1"
+      ],
+      "tvg_ids": [
+        "TELE1.tr"
+      ]
+    },
+    {
+      "name": "Bloomberg HT",
+      "group": "Haber",
+      "aliases": [
+        "Bloomberg HT"
+      ],
+      "tvg_ids": [
+        "BloombergHT.tr"
+      ]
+    },
+    {
+      "name": "A Para",
+      "group": "Haber",
+      "aliases": [
+        "A Para"
+      ],
+      "tvg_ids": [
+        "APara.tr"
+      ]
+    },
+    {
+      "name": "TGRT Haber",
+      "group": "Haber",
+      "aliases": [
+        "TGRT Haber"
+      ],
+      "tvg_ids": [
+        "TGRTHaber.tr"
+      ]
+    },
+    {
+      "name": "Ekotürk",
+      "group": "Haber",
+      "aliases": [
+        "Ekotürk",
+        "Ekoturk",
+        "Ekotürk TV"
+      ],
+      "tvg_ids": [
+        "Ekoturk.tr"
+      ]
+    },
+    {
+      "name": "Halk TV",
+      "group": "Haber",
+      "aliases": [
+        "Halk TV"
+      ],
+      "tvg_ids": [
+        "HalkTV.tr"
+      ]
+    },
+    {
+      "name": "TVNET",
+      "group": "Haber",
+      "aliases": [
+        "TVNET",
+        "TV Net"
+      ],
+      "tvg_ids": [
+        "TVNET.tr"
+      ]
+    },
+    {
+      "name": "24",
+      "group": "Haber",
+      "aliases": [
+        "24",
+        "24 TV",
+        "Kanal 24"
+      ],
+      "tvg_ids": [
+        "24.tr"
+      ]
+    },
+    {
+      "name": "beIN Sports Haber",
+      "group": "Spor",
+      "aliases": [
+        "beIN Sports Haber",
+        "BeIN Sports Haber"
+      ],
+      "tvg_ids": [
+        "beINSportsHaber.tr",
+        "beINSportsHaber.tr@SD"
+      ]
+    },
+    {
+      "name": "TRT Spor",
+      "group": "Spor",
+      "aliases": [
+        "TRT Spor"
+      ],
+      "tvg_ids": [
+        "TRTSpor.tr"
+      ]
+    },
+    {
+      "name": "TRT Spor Yıldız",
+      "group": "Spor",
+      "aliases": [
+        "TRT Spor Yıldız",
+        "TRT Spor Yildiz"
+      ],
+      "tvg_ids": [
+        "TRTSporYildiz.tr"
+      ]
+    },
+    {
+      "name": "A Spor",
+      "group": "Spor",
+      "aliases": [
+        "A Spor"
+      ],
+      "tvg_ids": [
+        "ASpor.tr"
+      ]
+    },
+    {
+      "name": "HT Spor",
+      "group": "Spor",
+      "aliases": [
+        "HT Spor"
+      ],
+      "tvg_ids": [
+        "HTSpor.tr"
+      ]
+    },
+    {
+      "name": "Sports TV",
+      "group": "Spor",
+      "aliases": [
+        "Sports TV",
+        "SportsTV"
+      ],
+      "tvg_ids": [
+        "SportsTV.tr"
+      ]
+    },
+    {
+      "name": "TJK TV",
+      "group": "Spor",
+      "aliases": [
+        "TJK TV",
+        "TJK"
+      ],
+      "tvg_ids": [
+        "TJKTV.tr"
+      ]
+    },
+    {
+      "name": "TRT Çocuk",
+      "group": "Çocuk",
+      "aliases": [
+        "TRT Çocuk",
+        "TRT Cocuk"
+      ],
+      "tvg_ids": [
+        "TRTCocuk.tr"
+      ]
+    },
+    {
+      "name": "Minika Çocuk",
+      "group": "Çocuk",
+      "aliases": [
+        "Minika Çocuk",
+        "Minika Cocuk"
+      ],
+      "tvg_ids": [
+        "MinikaCocuk.tr"
+      ]
+    },
+    {
+      "name": "Minika GO",
+      "group": "Çocuk",
+      "aliases": [
+        "Minika GO",
+        "Minika Go"
+      ],
+      "tvg_ids": [
+        "MinikaGO.tr"
+      ]
+    },
+    {
+      "name": "TRT Belgesel",
+      "group": "Belgesel",
+      "aliases": [
+        "TRT Belgesel"
+      ],
+      "tvg_ids": [
+        "TRTBelgesel.tr"
+      ]
+    },
+    {
+      "name": "Yaban TV",
+      "group": "Belgesel",
+      "aliases": [
+        "Yaban TV"
+      ],
+      "tvg_ids": [
+        "YabanTV.tr"
+      ]
+    },
+    {
+      "name": "TRT Müzik",
+      "group": "Müzik",
+      "aliases": [
+        "TRT Müzik",
+        "TRT Muzik"
+      ],
+      "tvg_ids": [
+        "TRTMuzik.tr"
+      ]
+    },
+    {
+      "name": "TRT Türk",
+      "group": "Kültür & Yaşam",
+      "aliases": [
+        "TRT Türk",
+        "TRT Turk"
+      ],
+      "tvg_ids": [
+        "TRTTurk.tr"
+      ]
+    }
+  ]
+}
